@@ -1,0 +1,22 @@
+{
+  "name": "tracking-my-team",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkinnySk8ter/Tracking-my-Team.git"
+  },
+  "author": "JJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkinnySk8ter/Tracking-my-Team/issues"
+  },
+  "homepage": "https://github.com/SkinnySk8ter/Tracking-my-Team#readme",
+  "dependencies": {
+    "inquirer": "^7.0.3"
+  }
+}
