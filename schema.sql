@@ -15,6 +15,22 @@ CREATE TABLE department (
   
 );
 
+CREATE table newrole (
+
+  id INT NOT NULL AUTO_INCREMENT,
+  title  VARCHAR(30),
+  salary  DECIMAL(10,2),
+  PRIMARY KEY (id),
+);
+
+CREATE TABLE employee (
+
+  id INT PRIMARY KEY
+  first_name VARCHAR(30) 
+  last_name VARCHAR(30)
+  role_id  INT SECONDARY KEY (id)
+  manager_id INT 
+);
 -- Creates new rows containing data in all named columns --
 INSERT INTO people (name, has_pet, pet_name, pet_age)
 VALUES ("Ahmed", TRUE, "Rockington", 100);
